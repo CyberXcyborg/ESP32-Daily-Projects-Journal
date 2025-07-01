@@ -34,3 +34,27 @@ A sophisticated web-based journal application for ESP32 microcontrollers that al
 #include <WebServer.h>     // ESP32 WebServer library (built-in)
 #include <SPIFFS.h>        // ESP32 SPIFFS library (built-in)
 #include <ArduinoJson.h>   // JSON handling library
+
+## 🔧 Installation
+
+### 1. Install Arduino Libraries
+
+- Open **Arduino IDE**
+- Go to **Tools → Manage Libraries**
+- Search for **"ArduinoJson"** by Benoit Blanchon
+- Install version **6.x.x**
+
+### 2. Configure WiFi Credentials
+
+Edit the WiFi credentials in the code:
+
+```cpp
+const char* ssid = "YOUR_WIFI_SSID";
+const char* password = "YOUR_WIFI_PASSWORD";
+
+### 3. Upload to ESP32
+
+- Connect your ESP32 to your computer
+- Select the correct board and port in Arduino IDE
+- Upload the code
+- Open Serial Monitor to see the IP address
