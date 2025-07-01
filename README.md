@@ -58,3 +58,43 @@ const char* password = "YOUR_WIFI_PASSWORD";
 - Select the correct board and port in Arduino IDE
 - Upload the code
 - Open Serial Monitor to see the IP address
+
+📱 Usage
+Initial Setup
+After uploading, open Serial Monitor (115200 baud)
+
+Wait for the ESP32 to connect to WiFi
+
+Note the IP address shown (e.g., 192.168.1.100)
+
+Open your browser and go to:
+http://[ESP32_IP_ADDRESS]
+
+Using the Interface
+Creating Projects
+Select a date using the date picker
+
+Enter a project name in the "Add New Project" field
+
+Click "Add Project"
+
+The project will be created and selected automatically
+
+Writing Entries
+Select a project from the dropdown
+
+Use the Journal Entry area for notes
+
+Use the Code Snippet area for technical content
+
+Press Ctrl+S or click Save Entry
+
+Managing Projects
+Switch Projects: Use the dropdown
+
+Delete Projects: Use the delete button
+
+Date Navigation: Change dates to browse logs
+
+Keyboard Shortcuts
+Ctrl+S (or Cmd+S on Mac): Save current entry
